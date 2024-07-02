@@ -1,0 +1,223 @@
+.login1 {
+    background-image: url("../../../public/images/p10.jpg");
+    height: 200vh;
+    width: 100vw;
+    padding: 50px;
+    background-size: contain;
+    position: absolute;
+    z-index: -1;
+    display: flex;
+    /* flex-wrap: wrap; */
+    gap: 9vw;
+
+}
+
+.containerL {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: auto;
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 50vw;
+    padding-bottom: 30px;
+
+}
+
+.headerL {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    margin-top: 20px;
+
+}
+
+.textL {
+    /* color: #3c009d; */
+    color: rgb(25, 216, 216);
+    font-size: 43px;
+    font-weight: 700;
+}
+
+.underlineL {
+    width: 60px;
+    height: 6px;
+    /* background:#3c009d ; */
+    background: rgb(25, 216, 216);
+    border-radius: 9px;
+}
+
+.inputs {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 38vw;
+    height: 65px;
+    background: #e3dcdc;
+    border-radius: 6px;
+}
+
+.input img {
+    margin: 0px 30px;
+}
+
+.input input {
+    height: 40px;
+    width: 400px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #797979;
+    font-size: 19px;
+}
+
+.forget-password {
+    padding-left: 6vw;
+    margin-top: 27px;
+    color: #797979;
+    font-size: 18px;
+
+}
+
+
+.submit-container {
+    display: flex;
+    gap: 30px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18vw;
+    height: 50px;
+    color: black;
+    background: rgb(25, 216, 216);
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.gray {
+    background: #e3dcdc;
+    color: #676767;
+}
+
+.sub button {
+    width: 18vw;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    background: #e3dcdc;
+    color: #676767;
+    display: inline-block;
+    text-align: center;
+    padding-top: 13px;
+    margin-left: 15vw;
+}
+
+.sub button:hover {
+    color: #fff;
+    background-color: rgb(25, 216, 216);
+}
+
+
+.login2 {
+    background-image: url("../../../public/images/p10.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    position: absolute;
+    z-index: -1;
+    padding-top: 20vh;
+}
+
+.sub1 button:hover {
+    color: #fff;
+    background-color: rgb(25, 216, 216);
+}
+
+.sub1 button {
+    width: 18vw;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    background: #e3dcdc;
+    color: #676767;
+
+}
+
+
+.sub2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18vw;
+    height: 50px;
+    color: #676767;
+    background: #e3dcdc;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.4s;
+    margin-top: 31px;
+}
+
+.sub2:hover {
+    background-color: rgb(25, 216, 216);
+    color: #fff;
+}
+
+.flex1 {
+    display: flex;
+    gap: 30px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 800px) {
+    .login1 {
+        flex-wrap: wrap;
+
+    }
+
+    .containerL {
+        width: 90vw;
+    }
+
+    .sub button {
+        width: 40vw;
+        margin-left: 22vw;
+        padding-right: 30px;
+
+    }
+
+    .submit {
+        width: 35vw;
+    }
+
+    .input {
+        width: 65vw;
+    }
+    .sub1 button{
+        width: 25vw;
+    }
+
+}
